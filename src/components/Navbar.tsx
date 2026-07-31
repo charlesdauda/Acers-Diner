@@ -41,10 +41,7 @@ const Navbar = () => {
             ))}
           </nav>
 
-          {/* Spacer — reserves the middle column; the real logo is positioned separately below */}
           <div aria-hidden className="hidden lg:block" />
-
-          {/* Get in touch — desktop only */}
           <div className="justify-self-end hidden lg:block">
             <Link
               to="/contacts"
@@ -55,12 +52,10 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Logo — mobile only, sits inline in the grid */}
           <Link to="/" className="justify-self-start lg:hidden">
             <img src={logo} alt="Easyeat" className="h-20 w-auto object-contain" />
           </Link>
 
-          {/* Hamburger — mobile only */}
           <button
             onClick={() => setIsMenuOpen(true)}
             className="justify-self-end lg:hidden text-white"
@@ -69,8 +64,7 @@ const Navbar = () => {
             <Menu size={32} />
           </button>
         </div>
-
-        {/* Logo — desktop only. Absolutely positioned so its size is fully independent of the bar's height */}
+        
         <Link
           to="/"
           className="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center"
