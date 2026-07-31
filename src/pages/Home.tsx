@@ -3,6 +3,8 @@ import Hero from '../components/Hero'
 import QuickInfo from '../components/QuickInfo'
 import FoodShowcase from '../components/FoodShowCase'
 
+
+
 const Home = () => {
   return (
     <>
