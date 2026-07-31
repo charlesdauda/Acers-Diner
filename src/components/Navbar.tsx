@@ -64,7 +64,7 @@ const Navbar = () => {
             <Menu size={32} />
           </button>
         </div>
-        
+
         <Link
           to="/"
           className="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center"
@@ -72,8 +72,6 @@ const Navbar = () => {
           <img src={logo} alt="Easyeat" className="h-36 w-auto object-contain" />
         </Link>
       </div>
-
-      {/* Mobile menu — flows top to bottom */}
       <div
         className={`fixed inset-0 z-50 bg-brand-dark transition-transform duration-500 ease-in-out lg:hidden ${
           isMenuOpen ? 'translate-y-0' : '-translate-y-full'
