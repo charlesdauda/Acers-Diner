@@ -1,0 +1,56 @@
+import { ArrowRight } from 'lucide-react'
+import feed1 from '../assets/images/brew.png'
+import feed2 from '../assets/images/brew.png'
+import feed3 from '../assets/images/brew.png'
+import feed4 from '../assets/images/brew.png'
+import feed5 from '../assets/images/brew.png'
+import feed6 from '../assets/images/brew.png'
+
+const feedImages = [feed1, feed2, feed3, feed4, feed5, feed6]
+
+const FollowUs = () => {
+  return (
+    <section className="bg-brand-dark py-20 lg:py-28">
+      <div className="mx-10 max-w-[1600px] px-6">
+        <span className="block font-display text-lg uppercase tracking-[0.3em] text-white/80 md:text-xl">
+          @easyeat
+        </span>
+
+        {/* Heading, paragraph and link share a row so they align to the same top edge */}
+        <div className="mt-8 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
+          <h2 className="font-display text-5xl uppercase leading-[1.05] text-white md:text-6xl lg:text-7xl">
+            Follow us
+          </h2>
+
+          <p className="max-w-2xl font-body text-lg text-gray-400 md:text-xl">
+            Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+            aut fugit, sed quia consequuntur. Dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+            voluptas.
+          </p>
+
+          <a
+            href="#"
+            className="inline-flex shrink-0 items-center gap-2 font-display text-sm uppercase tracking-wide text-white transition-colors hover:text-brand-accent"
+          >
+            Follow us
+            <ArrowRight size={16} />
+          </a>
+        </div>
+      </div>
+
+      {/* Instagram-style photo strip — wider container, less padding than the text above */}
+      <div className="mx-10 mt-16 grid max-w-[1780px] grid-cols-3 gap-[37px] px-6 sm:grid-cols-6">
+        {feedImages.map((src, i) => (
+          <img
+            key={i}
+            src={src}
+            alt="Follow us on Instagram"
+            className="aspect-square w-full object-cover"
+          />
+        ))}
+      </div>
+    </section>
+  )
+}
+
+export default FollowUs

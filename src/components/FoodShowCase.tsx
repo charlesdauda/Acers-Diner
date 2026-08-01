@@ -15,7 +15,7 @@ const FoodShowcase = () => {
           <img
             src={brewImage}
             alt="Barista pouring coffee"
-            className="aspect-[652/766] w-full object-cover"
+            className="ml-[6%] aspect-[652/766] w-[94%] object-cover"
           />
         </div>
 
@@ -43,7 +43,7 @@ const FoodShowcase = () => {
               </div>
             ))}
           </div>
-          <a          
+          <a
             href="#about"
             className="mt-10 inline-flex items-center gap-2 bg-brand-accent px-8 py-5 font-display text-sm uppercase tracking-wide text-white transition-colors hover:bg-brand-accent/90"
           >
