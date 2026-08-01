@@ -1,4 +1,7 @@
 import { ArrowRight } from 'lucide-react'
+import { Autoplay } from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
 import feed1 from '../assets/images/brew.png'
 import feed2 from '../assets/images/brew.png'
 import feed3 from '../assets/images/brew.png'
@@ -38,16 +41,42 @@ const FollowUs = () => {
         </div>
       </div>
 
-      {/* Instagram-style photo strip — wider container, less padding than the text above */}
-      <div className="mx-10 mt-16 grid max-w-[1780px] grid-cols-3 gap-[37px] px-6 sm:grid-cols-6">
-        {feedImages.map((src, i) => (
-          <img
-            key={i}
-            src={src}
-            alt="Follow us on Instagram"
-            className="aspect-square w-full object-cover"
-          />
-        ))}
+      <div className="mx-10 mt-16 max-w-[1780px] px-6">
+        <div className="lg:hidden">
+          <Swiper
+            modules={[Autoplay]}
+            spaceBetween={16}
+            slidesPerView={1}
+            loop
+            autoplay={{
+              delay: 2200,
+              disableOnInteraction: false,
+            }}
+            grabCursor
+            className="overflow-hidden"
+          >
+            {feedImages.map((src, i) => (
+              <SwiperSlide key={i}>
+                <img
+                  src={src}
+                  alt="Follow us on Instagram"
+                  className="aspect-square w-full object-cover"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+
+        <div className="hidden gap-[37px] lg:grid lg:grid-cols-6">
+          {feedImages.map((src, i) => (
+            <img
+              key={i}
+              src={src}
+              alt="Follow us on Instagram"
+              className="aspect-square w-full object-cover"
+            />
+          ))}
+        </div>
       </div>
     </section>
   )
