@@ -5,6 +5,7 @@
   --font-body: "Jost", sans-serif;
   --color-brand-dark: #101010;
   --color-brand-accent: #f2670f;
+  --color-brand-header: #ffb936;
 }
 
 body {
@@ -22,4 +23,17 @@ body {
 
 .animate-kenburns {
   animation: kenburns 25s ease-in-out infinite alternate;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 1px solid #d1d5db;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-brand-accent);
+  border-color: var(--color-brand-accent);
 }

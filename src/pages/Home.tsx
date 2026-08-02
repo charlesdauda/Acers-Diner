@@ -5,6 +5,7 @@ import FoodShowcase from '../components/FoodShowCase'
 import FoodPreparation from '../components/FoodPreparation'
 import FollowUs from '../components/FollowUs'
 import Footer from '../components/Footer'
+import ContactBar from '../components/ContactBar'
 
 
 
@@ -17,6 +18,7 @@ const Home = () => {
       <FoodShowcase />
       <FoodPreparation />
       <FollowUs />
+      <ContactBar />
       <Footer />
     </>
   )
