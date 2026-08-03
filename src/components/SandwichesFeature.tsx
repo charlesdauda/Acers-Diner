@@ -1,5 +1,5 @@
 import { ArrowRight } from 'lucide-react'
-import chef from '../assets/images/brew.png'
+import chef from '../assets/images/kas.png'
 
 const features = [
   { number: '01', title: 'Delicious Sandwiches' },

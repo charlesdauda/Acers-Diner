@@ -5,10 +5,10 @@ import { ArrowLeft, ArrowRight, Quote } from 'lucide-react'
 import 'swiper/css'
 import 'swiper/css/pagination'
 
-import avatar1 from '../assets/images/brew.png'
-import avatar2 from '../assets/images/brew.png'
-import avatar3 from '../assets/images/brew.png'
-import avatar4 from '../assets/images/brew.png'
+import avatar1 from '../assets/images/avt1.png'
+import avatar2 from '../assets/images/avt2.png'
+import avatar3 from '../assets/images/avt3.png'
+import avatar4 from '../assets/images/avt4.png'
 
 const testimonials = [
   { avatar: avatar1, name: 'Crystal Rich', role: 'Client', quote: 'Hac habitasse platea dictumst quisque sagittis purus sit amet. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Semper risus in hendrerit gravida.' },

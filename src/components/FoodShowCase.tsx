@@ -1,5 +1,5 @@
 import { ArrowRight } from 'lucide-react'
-import brewImage from '../assets/images/brew.png'
+import brewImage from '../assets/images/prepare.png'
 
 const categories = ['Drinks', 'Coffee Blends']
 
@@ -7,10 +7,7 @@ const FoodShowcase = () => {
   return (
     <section className="overflow-hidden bg-brand-dark px-6 py-20 lg:py-28">
       <div className="relative mx-auto grid max-w-[1600px] gap-16 lg:grid-cols-[45%_1fr] lg:items-center lg:gap-20">
-        {/* Decorative dot in the gap between columns */}
         <div className="absolute left-[48%] top-1/3 hidden h-4 w-4 -translate-x-1/2 rounded-full bg-white lg:block" />
-
-        {/* Image + overlapping caption card */}
         <div className="relative">
           <img
             src={brewImage}
@@ -18,8 +15,6 @@ const FoodShowcase = () => {
             className="ml-[6%] aspect-[652/766] w-[94%] object-cover"
           />
         </div>
-
-        {/* Text content */}
         <div>
           <span className="font-display text-lg uppercase tracking-[0.3em] text-white/80 md:text-xl">
             Coffee for you

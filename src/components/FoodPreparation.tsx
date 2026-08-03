@@ -1,11 +1,10 @@
-import baristaImage from '../assets/images/brew.png'
-import prepImage from '../assets/images/brew.png'
+import baristaImage from '../assets/images/banks.png'
+import prepImage from '../assets/images/spag.png'
 
 const FoodPreparation = () => {
   return (
     <section className="bg-brand-dark px-6 py-20 lg:py-28">
       <div className="mx-auto grid max-w-[1600px] gap-8 lg:grid-cols-2 lg:items-start lg:gap-4">
-        {/* Left column: heading + single image */}
         <div>
           <div className="pl-[6%]">
             <span className="font-display text-lg uppercase tracking-[0.3em] text-white/80 md:text-xl">

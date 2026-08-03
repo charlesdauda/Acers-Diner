@@ -2,12 +2,12 @@ import { ArrowRight } from 'lucide-react'
 import { Autoplay } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import feed1 from '../assets/images/brew.png'
-import feed2 from '../assets/images/brew.png'
-import feed3 from '../assets/images/brew.png'
-import feed4 from '../assets/images/brew.png'
-import feed5 from '../assets/images/brew.png'
-import feed6 from '../assets/images/brew.png'
+import feed1 from '../assets/images/burger.png'
+import feed2 from '../assets/images/chick.png'
+import feed3 from '../assets/images/yam.png'
+import feed4 from '../assets/images/waakye.png'
+import feed5 from '../assets/images/chip.png'
+import feed6 from '../assets/images/food.png'
 
 const feedImages = [feed1, feed2, feed3, feed4, feed5, feed6]
 
@@ -16,7 +16,7 @@ const FollowUs = () => {
     <section className="bg-brand-dark py-20 lg:py-28">
       <div className="mx-10 max-w-[1600px] px-6">
         <span className="block font-display text-lg uppercase tracking-[0.3em] text-white/80 md:text-xl">
-          @easyeat
+          @Acers Diner
         </span>
 
         {/* Heading, paragraph and link share a row so they align to the same top edge */}

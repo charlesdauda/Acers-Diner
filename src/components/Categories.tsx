@@ -2,10 +2,10 @@ import { ArrowRight } from 'lucide-react'
 import { Autoplay } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import burgers from '../assets/images/brew.png'
-import hotdogs from '../assets/images/brew.png'
-import meatFish from '../assets/images/brew.png'
-import pizza from '../assets/images/brew.png'
+import burgers from '../assets/images/panini.png'
+import hotdogs from '../assets/images/hotdogs.png'
+import meatFish from '../assets/images/steak.png'
+import pizza from '../assets/images/pizza.png'
 
 const categories = [
   { title: 'Burgers & Panini', image: burgers, href: '#' },

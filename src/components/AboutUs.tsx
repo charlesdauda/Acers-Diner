@@ -1,5 +1,5 @@
 import { Check } from 'lucide-react'
-import chefImage from '../assets/images/brew.png'
+import chefImage from '../assets/images/ceo.png'
 
 const qualities = [
   '15+ years of culinary experience',
@@ -17,12 +17,12 @@ const AboutUs = () => {
           <img
             src={chefImage}
             alt="Head chef holding a tray of burgers"
-            className="aspect-[3/3] w-full object-cover"
+            className="aspect-[4/5] w-full object-cover object-top md:aspect-[3/4]"
           />
           <div className="absolute -bottom-6 left-6 bg-brand-dark px-6 py-4 lg:-bottom-8 lg:left-10 lg:px-8 lg:py-5">
-            <p className="font-display text-xl uppercase text-white lg:text-2xl">John Carter</p>
+            <p className="font-display text-xl uppercase text-white lg:text-2xl">Kobinah Essah</p>
             <p className="mt-1 font-body text-sm uppercase tracking-wide text-white/60">
-              Head Chef
+              Our CEO
             </p>
           </div>
         </div>

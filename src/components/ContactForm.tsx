@@ -1,6 +1,6 @@
 import { useState, type ChangeEvent, type FocusEvent, type FormEvent } from 'react'
 import { Send } from 'lucide-react'
-import contactImage from '../assets/images/brew.png'
+import contactImage from '../assets/images/los.png'
 
 interface ContactPageProps {
   imageUrl?: string
