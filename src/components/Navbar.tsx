@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import { ArrowRight, Menu, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import logo from '../assets/images/acers.png'
 
 const navLinks = [
@@ -45,10 +45,9 @@ const Navbar = () => {
           <div className="justify-self-end hidden lg:block">
             <Link
               to="/contacts"
-              className="inline-flex items-center gap-2 bg-[#c07d47] hover:bg-[#c07d47]/90 transition-colors text-white font-display text-sm uppercase tracking-wide px-8 py-4"
+              className="inline-flex items-center gap-2 bg-brand-accent hover:bg-brand-accent/90 transition-colors text-white font-display text-sm uppercase tracking-wide px-8 py-4"
             >
               Get in touch
-              <ArrowRight size={16} />
             </Link>
           </div>
 
@@ -105,7 +104,6 @@ const Navbar = () => {
               }
             >
               {link.label}
-              <ArrowRight size={20} />
             </NavLink>
           ))}
         </nav>

@@ -36,7 +36,7 @@ const infoItems: InfoItem[] = [
 const InfoCard = ({ item }: { item: InfoItem }) => (
   <div className="flex flex-col items-center text-center">
     <div
-      className="h-32 w-32 bg-white transition-colors duration-300 hover:bg-brand-accent"
+      className="h-40 w-40 bg-white transition-colors duration-300 hover:bg-brand-accent"
       style={{
         WebkitMaskImage: `url(${item.icon})`,
         maskImage: `url(${item.icon})`,

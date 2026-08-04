@@ -49,7 +49,18 @@ const Footer = () => {
 
         <div className="mt-8 pt-4 text-center font-body text-xs text-gray-500 sm:mt-9 sm:pt-5 sm:text-sm">
           <p className='text-lg'>
-            <span className="text-white/80 text-lg">AncoraThemes</span> © {new Date().getFullYear()}. All Rights Reserved.
+            <span className="text-white/80 text-lg">Acer's Diner</span> © {new Date().getFullYear()}. All Rights Reserved.
+          </p>
+          <p className="mt-2 text-sm text-gray-400 sm:text-base">
+            Developed by{' '}
+            <a
+              href="https://github.com/charlesdauda"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium text-brand-accent transition-colors hover:text-brand-header"
+            >
+              codewithcharles
+            </a>
           </p>
         </div>
       </div>
