@@ -3,13 +3,19 @@
 @theme {
   --font-display: "Anton", sans-serif;
   --font-body: "Jost", sans-serif;
-  --color-brand-dark: #101010;
+  --color-brand-dark: #000000;
   --color-brand-accent: #f2670f;
   --color-brand-header: #ffb936;
 }
 
-body {
+html, body {
+  background: #000000;
   font-family: var(--font-body);
+}
+
+body {
+  min-height: 100vh;
+  background: #000000;
 }
 
 @keyframes kenburns {
