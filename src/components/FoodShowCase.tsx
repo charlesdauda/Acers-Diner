@@ -1,7 +1,6 @@
-import { ArrowRight } from 'lucide-react'
 import brewImage from '../assets/images/prepare.png'
 
-const categories = ['Drinks', 'Coffee Blends']
+const categories = ['Catering Experiences', 'Local & Continental Dishes']
 
 const FoodShowcase = () => {
   return (
@@ -17,14 +16,13 @@ const FoodShowcase = () => {
         </div>
         <div>
           <span className="font-display text-lg uppercase tracking-[0.3em] text-white/80 md:text-xl">
-            Coffee for you
+            Food made for you
           </span>
           <h2 className="mt-10 max-w-2xl font-display text-5xl uppercase leading-[1.05] text-white md:text-6xl lg:text-7xl">
-            We brew delicious & aromatic coffee
+            Every Taste is Worth Remembering
           </h2>
           <p className="mt-8 max-w-lg font-body text-lg text-gray-400 md:text-xl">
-            Quam pellentesque nec nam aliquam sem. Neque convallis a cras semper. Posuere urna nec
-            tincidun.
+           Experience carefully crafted meals made with fresh ingredients, rich flavors, and a passion for exceptional dining.
           </p>
 
           <div className="mt-10 border-t border-white/10">
@@ -38,13 +36,6 @@ const FoodShowcase = () => {
               </div>
             ))}
           </div>
-          <a
-            href="#about"
-            className="mt-10 inline-flex items-center gap-2 bg-brand-accent px-8 py-5 font-display text-sm uppercase tracking-wide text-white transition-colors hover:bg-brand-accent/90"
-          >
-            About us
-            <ArrowRight size={16} />
-          </a>
         </div>
       </div>
     </section>

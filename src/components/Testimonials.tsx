@@ -11,10 +11,10 @@ import avatar3 from '../assets/images/avt3.png'
 import avatar4 from '../assets/images/avt4.png'
 
 const testimonials = [
-  { avatar: avatar1, name: 'Crystal Rich', role: 'Client', quote: 'Hac habitasse platea dictumst quisque sagittis purus sit amet. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Semper risus in hendrerit gravida.' },
-  { avatar: avatar2, name: 'Daniel Cole', role: 'Client', quote: 'Nibh venenatis cras sed felis eget velit aliquet sagittis. Faucibus purus in massa tempor nec feugiat nisl pretium fusce aliquam id diam.' },
-  { avatar: avatar3, name: 'Amara Whitfield', role: 'Client', quote: 'Adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud.' },
-  { avatar: avatar4, name: 'Marcus Bellweather', role: 'Client', quote: 'Dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur.' },
+  { avatar: avatar1, name: 'Ama Serwaa Mensah', role: 'Client', quote: "Acer's Diner made our wedding celebration truly unforgettable. The food was delicious, beautifully presented, and the service was exceptional. Our guests are still talking about the amazing experience." },
+  { avatar: avatar2, name: 'Abena Owusu', role: 'Client', quote: "From the first consultation to the final meal, Acer's Diner delivered beyond our expectations. Chef Kobinnah and his team brought creativity, professionalism, and incredible flavors to our event."},
+  { avatar: avatar3, name: 'Kofi Asare', role: 'Client', quote: "I have worked with many catering services, but Acer's Diner stands out. Their attention to detail, quality of food, and commitment to customer satisfaction are outstanding." },
+  { avatar: avatar4, name: 'Esi Boateng', role: 'Client', quote:"The meals were absolutely amazing! Acer's Diner brought elegance and great taste to our celebration. Every dish was prepared with passion, and the entire experience was memorable." },
 ]
 
 const Testimonials = () => {

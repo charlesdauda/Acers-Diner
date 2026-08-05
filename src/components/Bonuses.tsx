@@ -5,22 +5,22 @@ import 'swiper/css'
 
 const plans = [
   {
-    name: 'Standard Bonus',
-    price: '$50.00',
+    name: 'Essential Package',
+    price: 'GH₵50.00',
     featured: false,
-    features: ['Adipiscing elit sed dolor.', 'Eusmod tempor incididunt.', 'Labore et dolore magna.'],
+    features: ['Delicious meal selection', 'Professional food presentation', 'Suitable for small gatherings.'],
   },
   {
-    name: 'Double Bonus',
-    price: '$60.00',
+    name: 'Premium Package',
+    price: 'GH₵60.00',
     featured: true,
-    features: ['Adipiscing elit sed dolor.', 'Eusmod tempor incididunt.', 'Labore et dolore magna.'],
+    features: ['Expanded menu options', 'Buffet setup and presentation', 'Perfect for weddings and corporate events.'],
   },
   {
-    name: 'Super Bonus',
-    price: '$80.00',
+    name: 'Luxury Package',
+    price: 'GH₵380.00',
     featured: false,
-    features: ['Adipiscing elit sed dolor.', 'Eusmod tempor incididunt.', 'Labore et dolore magna.'],
+    features: ['Customized premium menu', 'Full event catering service', 'Exceptional dining experience.'],
   },
 ]
 
@@ -30,16 +30,18 @@ const Bonuses = () => {
       <div className="mx-auto max-w-[1600px] px-6">
         <div className="text-center">
           <span className="font-display text-sm uppercase tracking-[0.3em] text-[#0C0F26]">
-            Restaurant certificates
+          Catering Packages
           </span>
 
           <h2 className="mt-6 font-display text-4xl uppercase text-[#0C0F26] md:text-5xl lg:text-6xl">
-            Bonuses for our clients
+           Flexible Options for Every Celebration
           </h2>
 
           <p className="mx-auto mt-8 max-w-2xl font-body text-[#0C0F26]/80">
-            Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id porta nibh
-            venenatis cras sed felis eget velit aliquet. Pretium quam vulput.
+            Choose from our carefully designed catering packages, 
+            created to suit different events, guest sizes, and budgets. 
+            Every package includes quality meals, professional service, 
+            and a memorable dining experience.
           </p>
         </div>
 
@@ -110,8 +112,6 @@ const Bonuses = () => {
                 >
                   {price}
                 </p>
-
-                <p className="mt-6 font-body text-[#0C0F26]/80">Per / Month</p>
 
                 <ul className="mt-10 space-y-5">
                   {features.map((feature) => (

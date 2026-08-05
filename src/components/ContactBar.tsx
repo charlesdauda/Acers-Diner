@@ -1,9 +1,9 @@
 import { Phone, Mail, MapPin } from 'lucide-react'
 
 const contactItems = [
-  { icon: Phone, label: 'Phone No:', value: '+123 456 789 963' },
-  { icon: Mail, label: 'Email Address:', value: 'info@acersdiner.com' },
-  { icon: MapPin, label: 'Location:', value: 'No: 59 A East Madison Street Baltimore, MD, USA, 4508' },
+  { icon: Phone, label: 'Phone No:', value: '+233 578 042 175' },
+  { icon: Mail, label: 'Email Address:', value:'derrickessah11@gmail.com' },
+  { icon: MapPin, label: 'Location:', value: 'Weija Tatop opposite Zulu Gardens' },
 ]
 
 const ContactBar = () => (

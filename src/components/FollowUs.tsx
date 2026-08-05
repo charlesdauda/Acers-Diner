@@ -26,13 +26,12 @@ const FollowUs = () => {
           </h2>
 
           <p className="max-w-2xl font-body text-lg text-gray-400 md:text-xl">
-            Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-            aut fugit, sed quia consequuntur. Dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-            voluptas.
+           Discover delicious meals, behind-the-scenes moments, and unforgettable 
+           catering experiences. Follow us for a taste of Acer's Diner.
           </p>
 
           <a
-            href="#"
+            href="https://www.tiktok.com/@acers_diner?_r=1&_t=ZS-98c6RvtcQBZ"
             className="inline-flex shrink-0 items-center gap-2 font-display text-sm uppercase tracking-wide text-white transition-colors hover:text-brand-accent"
           >
             Follow us

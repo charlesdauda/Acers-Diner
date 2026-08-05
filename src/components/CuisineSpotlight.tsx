@@ -1,10 +1,9 @@
-import { ArrowRight } from 'lucide-react'
 import chefImage from '../assets/images/brew.png'
 
 const highlights = [
-  { label: 'Ethnic Restaurant', active: true },
-  { label: 'Exotic Cuisine', active: false },
-  { label: 'Indian Dishes', active: false },
+  { label: 'Buffet Services', active: true },
+  { label: 'Local Dishes', active: true },
+  { label: 'Event Catering', active: true },
 ]
 
 const CuisineSpotlight = () => (
@@ -18,14 +17,15 @@ const CuisineSpotlight = () => (
 
       <div>
         <span className="font-display text-lg uppercase tracking-[0.3em] text-brand-dark md:text-xl">
-          Indian spices
+         Custom Event Menus
         </span>
         <h2 className="mt-6 font-display text-4xl uppercase leading-[1.05] text-brand-dark md:text-5xl lg:text-6xl">
-          Taste the richness of Indian culture with our dishes
+         Personalized food options designed to match your occasion and preferences.
         </h2>
         <p className="mt-8 max-w-lg font-body text-lg text-gray-600 md:text-xl">
-          Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-          aut fugit, sed quia.
+         Experience a variety of delicious meals prepared with,
+          creativity, and passion. From traditional Ghanaian favorites to 
+          continental dishes, Acer's Diner brings exceptional flavors to every celebration.
         </p>
 
         <ul className="mt-10 space-y-5">
@@ -46,14 +46,6 @@ const CuisineSpotlight = () => (
             </li>
           ))}
         </ul>
-
-        <a
-          href="/about"
-          className="mt-10 inline-flex items-center gap-2 bg-brand-accent px-8 py-5 font-display text-sm uppercase tracking-wide text-white transition-colors hover:bg-brand-accent/90"
-        >
-          About us
-          <ArrowRight size={16} />
-        </a>
       </div>
     </div>
   </section>

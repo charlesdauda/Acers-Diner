@@ -5,7 +5,6 @@ import CuisineSpotlight from "../components/CuisineSpotlight"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import PageHeader from "../components/PageHeader"
-import WhatWeDo from "../components/WhatweDo"
 
 const Services = () => {
     return(
@@ -15,7 +14,6 @@ const Services = () => {
         <CuisineSpotlight />
         <CuisineHighlights />
         <Categories />
-        <WhatWeDo />
         <ContactBar />
         <Footer />
         </>

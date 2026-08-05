@@ -11,8 +11,8 @@ interface LocationMapProps {
 }
 
 const LocationMap = ({
-  locationName = 'Zulu Gardens, Tatop',
-  address = 'Zulu Garden, Weija Tatop, Accra, Ghana',
+  locationName = 'Weija Tatop, Accra',
+  address = 'Weija Tatop, Accra, Ghana',
   zoom = 17,
 }: LocationMapProps) => {
   const mapSrc = `https://www.google.com/maps?q=${LAT},${LNG}&z=${zoom}&output=embed`

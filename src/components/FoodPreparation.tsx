@@ -8,10 +8,10 @@ const FoodPreparation = () => {
         <div>
           <div className="pl-[6%]">
             <span className="font-display text-lg uppercase tracking-[0.3em] text-white/80 md:text-xl">
-              Food preparation
+             The Acer Experience
             </span>
             <h2 className="mt-10 max-w-2xl font-display text-4xl uppercase leading-[1.05] text-white md:text-5xl lg:text-6xl">
-              Our food is prepared with the finest ingredients
+             Prepared with Passion and Excellence
             </h2>
           </div>
 
@@ -22,7 +22,6 @@ const FoodPreparation = () => {
           />
         </div>
 
-        {/* Right column: image + paragraph + read more */}
         <div>
           <img
             src={baristaImage}
@@ -30,16 +29,10 @@ const FoodPreparation = () => {
             className="hidden aspect-[773/736] w-[88%] object-cover lg:mx-auto lg:block"
           />
           <p className="mt-8 max-w-lg font-body text-lg text-gray-400 md:mt-12 md:text-xl lg:mt-16">
-            Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud. Wiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim.
+          From the first bite to the final presentation, Acer's Diner delivers carefully 
+          prepared cuisine designed to elevate your special events. We believe great food 
+          begins with quality ingredients and ends with a memorable experience.
           </p>
-          <a
-            href="#"
-            className="mt-8 inline-block border-b border-white pb-1 font-display text-sm uppercase tracking-wide text-white transition-colors hover:border-brand-accent hover:text-brand-accent"
-          >
-            Read more
-          </a>
         </div>
       </div>
     </section>
