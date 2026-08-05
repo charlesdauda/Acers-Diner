@@ -1,4 +1,3 @@
-import { ArrowRight } from 'lucide-react'
 import chef from '../assets/images/kas.png'
 
 const features = [
@@ -44,14 +43,6 @@ const SandwichesFeature = () => {
                 </div>
               ))}
             </div>
-
-            <a
-              href="#"
-              className="mt-10 inline-flex items-center gap-3 bg-brand-accent px-8 py-4 font-display text-sm uppercase tracking-wide text-white transition-opacity hover:opacity-90"
-            >
-              About us
-              <ArrowRight size={16} />
-            </a>
           </div>
         </div>
       </div>
