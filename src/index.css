@@ -3,8 +3,7 @@
 @theme {
   --font-display: "Anton", sans-serif;
   --font-body: "Jost", sans-serif;
-
-  /* Premium catering palette — balanced with the logo tones */
+  
   --color-purple: #7d124d;
   --color-pink: #c91d63;
   --color-red: #e8471b;
