@@ -36,6 +36,7 @@ const Categories = () => {
                 <img
                   src={image}
                   alt={title}
+                  loading="lazy"
                   className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                 />
 
@@ -71,6 +72,7 @@ const Categories = () => {
             <img
               src={image}
               alt={title}
+              loading="lazy"
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
             />
 

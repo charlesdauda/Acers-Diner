@@ -48,7 +48,7 @@ const Testimonials = () => {
         {testimonials.map((t) => (
           <SwiperSlide key={t.name}>
             <div className="mx-auto flex h-28 w-28 items-center justify-center rounded-full bg-gray-100">
-              <img src={t.avatar} alt={t.name} className="h-full w-full rounded-full object-cover" />
+              <img src={t.avatar} alt={t.name} loading="lazy" className="h-full w-full rounded-full object-cover" />
             </div>
             <p className="mt-10 font-body text-xl text-gray-800 md:text-2xl">{t.quote}</p>
             <Quote className="mx-auto mt-8 h-8 w-8 fill-brand-accent text-brand-accent" />

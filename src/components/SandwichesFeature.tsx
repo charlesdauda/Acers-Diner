@@ -15,6 +15,7 @@ const SandwichesFeature = () => {
             <img
               src={chef}
               alt="Chef preparing sandwiches in a food truck"
+              loading="lazy"
               className="aspect-[653/806] w-full object-cover"
             />
           </div>

@@ -18,14 +18,16 @@ const FoodPreparation = () => {
           <img
             src={prepImage}
             alt="Hand reaching for cups on a wooden board"
+            loading="lazy"
             className="mx-auto mt-[116px] aspect-[733/680] w-[88%] object-cover"
           />
         </div>
 
-        <div>
+        <div className="pl-[6%] pr-[6%] lg:pl-0 lg:pr-0">
           <img
             src={baristaImage}
             alt="Barista pouring coffee"
+            loading="lazy"
             className="hidden aspect-[773/736] w-[88%] object-cover lg:mx-auto lg:block"
           />
           <p className="mt-8 max-w-lg font-body text-lg text-gray-400 md:mt-12 md:text-xl lg:mt-16">

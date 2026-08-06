@@ -50,7 +50,7 @@ const LocationMap = ({
           title={locationName}
           src={mapSrc}
           className="h-full w-full border-0"
-          loading="lazy"
+          loading="eager"
           allowFullScreen
           referrerPolicy="no-referrer-when-downgrade"
         />

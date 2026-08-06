@@ -16,6 +16,7 @@ const AboutUs = () => {
             <img
               src={chefImage}
               alt="Head chef holding a tray of burgers"
+              loading="lazy"
               className="h-[420px] w-full object-cover object-[center_18%] md:h-[500px] lg:h-[540px]"
             />
           </div>

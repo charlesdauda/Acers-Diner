@@ -11,10 +11,11 @@ const FoodShowcase = () => {
           <img
             src={brewImage}
             alt="Barista pouring coffee"
+            loading="lazy"
             className="ml-[6%] aspect-[652/766] w-[94%] object-cover"
           />
         </div>
-        <div>
+        <div className="pl-[6%] pr-[6%] lg:pl-0 lg:pr-0">
           <span className="font-display text-lg uppercase tracking-[0.3em] text-white/80 md:text-xl">
             Food made for you
           </span>

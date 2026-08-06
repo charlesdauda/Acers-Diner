@@ -6,6 +6,8 @@ import About from './pages/About'
 import Services from './pages/Services'
 import Pricing from './pages/Pricing'
 import Contact from './pages/Contact'
+import heroImage from './assets/images/hero.png'
+import logo from './assets/images/acers.png'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -18,6 +20,30 @@ function ScrollToTop() {
 }
 
 function App() {
+  useEffect(() => {
+    const links: HTMLLinkElement[] = []
+
+    const preload = (href: string) => {
+      const link = document.createElement('link')
+      link.rel = 'preload'
+      link.as = 'image'
+      link.href = href
+      document.head.appendChild(link)
+      links.push(link)
+    }
+
+    preload(heroImage)
+    preload(logo)
+
+    return () => {
+      links.forEach((link) => {
+        if (link.parentNode) {
+          link.parentNode.removeChild(link)
+        }
+      })
+    }
+  }, [])
+
   return (
     <BrowserRouter>
       <ScrollToTop />

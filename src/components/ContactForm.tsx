@@ -52,7 +52,7 @@ const ContactPage = ({
     <div className="relative min-h-screen w-full overflow-hidden bg-white" style={{ fontFamily: "'Poppins', sans-serif" }}>
       <div className="flex min-h-screen flex-col md:flex-row">
         <div className="relative hidden h-72 w-full md:block md:h-auto md:w-1/2 sm:h-96">
-          <img src={imageUrl} alt={imageAlt} className="h-full w-full object-cover" />
+          <img src={imageUrl} alt={imageAlt} loading="lazy" className="h-full w-full object-cover" />
         </div>
 
         <div className="flex w-full items-center md:w-1/2">

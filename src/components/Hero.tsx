@@ -3,9 +3,13 @@ import heroImage from '../assets/images/hero.png'
 const Hero = () => {
   return (
     <section id="hero" className="relative h-[90vh] min-h-[650px] w-full overflow-hidden bg-brand-dark">
-      <div
-        className="absolute inset-0 bg-cover bg-center animate-kenburns"
-        style={{ backgroundImage: `url(${heroImage})` }}
+      <img
+        src={heroImage}
+        alt=""
+        aria-hidden="true"
+        loading="eager"
+        fetchPriority="high"
+        className="absolute inset-0 h-full w-full object-cover animate-kenburns"
       />
       <div className="absolute inset-0 bg-black/70" />
 

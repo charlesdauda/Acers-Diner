@@ -24,20 +24,24 @@ const values = [
 
 const OurValues = () => (
   <section className="relative overflow-hidden bg-brand-dark">
-    <img
-      src={bgImage}
-      alt="Inside the kitchen"
-      className="absolute inset-0 h-full w-full object-cover"
-    />
-    <div className="absolute inset-0 bg-black/60" />
+    <div className="absolute inset-0">
+      <img
+        src={bgImage}
+        alt=""
+        aria-hidden="true"
+        loading="lazy"
+        className="h-full w-full object-cover"
+      />
+      <div className="absolute inset-0 bg-black/60" />
+    </div>
 
-    <div className="relative mx-auto flex max-w-[1600px] justify-end px-6 py-20 lg:min-h-[800px] lg:items-center lg:py-28">
-      <div className="w-full lg:max-w-xl">
-        <h2 className="mt-6 font-display text-4xl uppercase leading-tight text-white md:text-5xl lg:text-6xl">
+    <div className="relative z-10 mx-auto flex max-w-[1600px] justify-end px-6 py-20 lg:min-h-[640px] lg:items-center lg:py-28">
+      <div className="w-full lg:max-w-2xl">
+        <h2 className="font-display text-4xl uppercase leading-tight text-white md:text-5xl lg:text-6xl">
          Bringing Exceptional Flavors to Every Client
         </h2>
 
-        <p className="mt-6 max-w-lg font-body text-lg text-white/80">
+        <p className="mt-6 max-w-2xl font-body text-lg text-white/80 md:text-xl">
           At Acer's Diner, we believe great food has the power to bring people together.
         </p>
 
@@ -49,7 +53,7 @@ const OurValues = () => (
               </span>
               <div>
                 <h3 className="font-display text-lg uppercase text-brand-dark">{title}</h3>
-                <p className="mt-2 font-body text-gray-600">{description}</p>
+                <p className="mt-2 max-w-xl font-body text-gray-600">{description}</p>
               </div>
             </div>
           ))}

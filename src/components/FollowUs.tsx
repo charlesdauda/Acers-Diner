@@ -59,6 +59,7 @@ const FollowUs = () => {
                 <img
                   src={src}
                   alt="Follow us on Instagram"
+                  loading="lazy"
                   className="aspect-square w-full object-cover"
                 />
               </SwiperSlide>
@@ -72,6 +73,7 @@ const FollowUs = () => {
               key={i}
               src={src}
               alt="Follow us on Instagram"
+              loading="lazy"
               className="aspect-square w-full object-cover"
             />
           ))}
