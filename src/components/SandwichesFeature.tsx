@@ -20,7 +20,6 @@ const SandwichesFeature = () => {
             />
           </div>
 
-          {/* Text content */}
           <div>
             <span className="font-display text-sm uppercase tracking-[0.3em] text-[#0C0F26]">
               Catering Packages

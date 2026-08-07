@@ -18,8 +18,7 @@ const FollowUs = () => {
         <span className="block font-display text-lg uppercase tracking-[0.3em] text-white/80 md:text-xl">
           @Acers Diner
         </span>
-
-        {/* Heading, paragraph and link share a row so they align to the same top edge */}
+        
         <div className="mt-8 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
           <h2 className="font-display text-5xl uppercase leading-[1.05] text-white md:text-6xl lg:text-7xl">
             Follow us

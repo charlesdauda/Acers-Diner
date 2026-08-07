@@ -18,7 +18,7 @@ const Navbar = () => {
     <header className="relative z-50 bg-brand-dark sticky top-0">
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid grid-cols-2 lg:grid-cols-3 items-center h-20 lg:h-24">
-          {/* Desktop nav links */}
+          
           <nav className="hidden lg:flex items-center gap-10">
             {navLinks.map((link) => (
               <NavLink

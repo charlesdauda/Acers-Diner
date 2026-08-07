@@ -27,8 +27,7 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-
-        {/* Text content */}
+        
         <div>
           <span className="font-display text-lg uppercase tracking-[0.3em] text-brand-accent md:text-xl">
             About Acer's Diner
