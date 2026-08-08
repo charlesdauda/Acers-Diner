@@ -6,7 +6,7 @@ const values = [
     icon: Eye,
     title: 'Our Vision',
     description:
-      "To become a trusted catering brand known for exceptional cuisine, outstanding service, and unforgettable food experiences across Ghana.",
+      "To become a trusted catering brand known for an outstanding service, and unforgettable food experience across Ghana and worldwide.",
   },
   {
     icon: Sprout,
