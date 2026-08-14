@@ -66,7 +66,7 @@ const FollowUs = () => {
           </Swiper>
         </div>
 
-        <div className="hidden gap-[37px] lg:grid lg:grid-cols-6">
+        <div className="hidden gap-9.25 lg:grid lg:grid-cols-6">
           {feedImages.map((src, i) => (
             <img
               key={i}

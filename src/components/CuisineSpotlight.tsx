@@ -13,7 +13,7 @@ const CuisineSpotlight = () => (
         src={chefImage}
         alt="Chef preparing an Indian dish"
         loading="lazy"
-        className="aspect-[792/909] w-full object-cover"
+        className="aspect-792/909 w-full object-cover"
       />
 
       <div>

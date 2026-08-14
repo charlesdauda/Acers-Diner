@@ -12,7 +12,7 @@ const FoodShowcase = () => {
             src={brewImage}
             alt="Barista pouring coffee"
             loading="lazy"
-            className="ml-[6%] aspect-[652/766] w-[94%] object-cover"
+            className="ml-[6%] aspect-652/766 w-[94%] object-cover"
           />
         </div>
         <div className="pl-[6%] pr-[6%] lg:pl-0 lg:pr-0">

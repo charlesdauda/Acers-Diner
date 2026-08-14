@@ -2,7 +2,7 @@ import heroImage from '../assets/images/hero.png'
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative h-[90vh] min-h-[650px] w-full overflow-hidden bg-brand-dark">
+    <section id="hero" className="relative h-[90vh] min-h-162.5 w-full overflow-hidden bg-brand-dark">
       <img
         src={heroImage}
         alt=""

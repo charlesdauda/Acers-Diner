@@ -15,7 +15,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="relative z-50 bg-brand-dark sticky top-0">
+    <header className="z-50 bg-brand-dark sticky top-0">
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid grid-cols-2 lg:grid-cols-3 items-center h-20 lg:h-24">
           
@@ -31,7 +31,7 @@ const Navbar = () => {
                   <>
                     {link.label}
                     <span
-                      className={`absolute left-0 -bottom-0.5 h-[2px] w-full bg-white origin-left transition-transform duration-300 ease-out ${
+                      className={`absolute left-0 -bottom-0.5 h-0.5 w-full bg-white origin-left transition-transform duration-300 ease-out ${
                         isActive ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
                       }`}
                     />

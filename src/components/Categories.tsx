@@ -76,8 +76,8 @@ const Categories = () => {
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
             />
 
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/70 via-black/10 to-transparent" />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+            <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-black/70 via-black/10 to-transparent" />
+            <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/50 via-transparent to-transparent" />
 
             <div className="relative flex h-full flex-col justify-between p-8 lg:p-10">
               <h3 className="font-display text-2xl uppercase leading-tight text-white md:text-3xl">

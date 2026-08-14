@@ -19,7 +19,7 @@ const FoodPreparation = () => {
             src={prepImage}
             alt="Hand reaching for cups on a wooden board"
             loading="lazy"
-            className="mx-auto mt-[116px] aspect-[733/680] w-[88%] object-cover"
+            className="mx-auto mt-29 aspect-733/680 w-[88%] object-cover"
           />
         </div>
 
@@ -28,7 +28,7 @@ const FoodPreparation = () => {
             src={baristaImage}
             alt="Barista pouring coffee"
             loading="lazy"
-            className="hidden aspect-[773/736] w-[88%] object-cover lg:mx-auto lg:block"
+            className="hidden aspect-773/736 w-[88%] object-cover lg:mx-auto lg:block"
           />
           <p className="mt-8 max-w-lg font-body text-lg text-gray-400 md:mt-12 md:text-xl lg:mt-16">
           From the first bite to the final presentation, Acer's Diner delivers carefully 

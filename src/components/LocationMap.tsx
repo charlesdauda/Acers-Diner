@@ -45,7 +45,7 @@ const LocationMap = ({
         </div>
       </div>
 
-      <div className="h-[480px] w-full sm:h-[560px] md:h-[680px] lg:h-[800px]">
+      <div className="h-120 w-full sm:h-140 md:h-170 lg:h-200">
         <iframe
           title={locationName}
           src={mapSrc}
