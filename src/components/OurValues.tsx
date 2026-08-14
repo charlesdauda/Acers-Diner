@@ -35,7 +35,7 @@ const OurValues = () => (
       <div className="absolute inset-0 bg-black/60" />
     </div>
 
-    <div className="relative z-10 mx-auto flex max-w-[1600px] justify-end px-6 py-20 lg:min-h-[640px] lg:items-center lg:py-28">
+    <div className="relative z-10 mx-auto flex max-w-[1600px] justify-end px-6 py-20 lg:min-h-160 lg:items-center lg:py-28">
       <div className="w-full lg:max-w-2xl">
         <h2 className="font-display text-4xl uppercase leading-tight text-white md:text-5xl lg:text-6xl">
          Bringing Exceptional Flavors to Every Client

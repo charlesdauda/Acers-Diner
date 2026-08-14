@@ -88,7 +88,7 @@ const Bonuses = () => {
 
                     <a
                       href="#"
-                      className={`mt-8 inline-flex w-[170px] items-center justify-center py-4 font-display text-sm uppercase tracking-wide transition-opacity hover:opacity-90 ${
+                      className={`mt-8 inline-flex w-42.5 items-center justify-center py-4 font-display text-sm uppercase tracking-wide transition-opacity hover:opacity-90 ${
                         featured ? 'bg-[#0C0F26] text-white' : 'bg-brand-accent text-white'
                       }`}
                     >
@@ -100,7 +100,7 @@ const Bonuses = () => {
             </Swiper>
           </div>
 
-          <div className="hidden gap-[37px] lg:grid lg:grid-cols-3">
+          <div className="hidden gap-9.25 lg:grid lg:grid-cols-3">
             {plans.map(({ name, price, featured, features }) => (
               <div key={name} className="bg-white px-8 py-12 text-center lg:px-10 lg:py-16">
                 <h3 className="font-display text-lg uppercase text-[#0C0F26]">{name}</h3>
@@ -127,7 +127,7 @@ const Bonuses = () => {
 
                 <a
                   href="#"
-                  className={`mt-10 inline-flex w-[180px] items-center justify-center py-5 font-display text-sm uppercase tracking-wide transition-opacity hover:opacity-90 ${
+                  className={`mt-10 inline-flex w-45 items-center justify-center py-5 font-display text-sm uppercase tracking-wide transition-opacity hover:opacity-90 ${
                     featured ? 'bg-[#0C0F26] text-white' : 'bg-brand-accent text-white'
                   }`}
                 >

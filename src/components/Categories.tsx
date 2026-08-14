@@ -32,7 +32,7 @@ const Categories = () => {
         >
           {categories.map(({ title, image, href }) => (
             <SwiperSlide key={title}>
-              <a href={href} className="group relative block h-[420px] overflow-hidden sm:h-[480px]">
+              <a href={href} className="group relative block h-105 overflow-hidden sm:h-120">
                 <img
                   src={image}
                   alt={title}
@@ -40,8 +40,8 @@ const Categories = () => {
                   className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                 />
 
-                <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/70 via-black/10 to-transparent" />
-                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+                <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-black/70 via-black/10 to-transparent" />
+                <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/50 via-transparent to-transparent" />
 
                 <div className="relative flex h-full flex-col justify-between p-8">
                   <h3 className="font-display text-2xl uppercase leading-tight text-white md:text-3xl">
@@ -67,7 +67,7 @@ const Categories = () => {
           <a
             key={title}
             href={href}
-            className="group relative block h-[420px] overflow-hidden sm:h-[480px] lg:h-[600px]"
+            className="group relative block h-105 overflow-hidden sm:h-120 lg:h-150"
           >
             <img
               src={image}
