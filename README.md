@@ -49,7 +49,7 @@ This generates a production-ready build in the `dist` folder.
 
 - `src/components` — reusable sections and UI blocks
 - `src/pages` — main pages such as Home, About, Services, Pricing, and Contact
-- `src/App.tsx` — app routing and global layout
+- `src/App.tsx` — app routing and global layout with 
 
 ## License
 
