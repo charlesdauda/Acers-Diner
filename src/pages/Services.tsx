@@ -10,7 +10,7 @@ const Services = () => {
     return(
         <>
         <Navbar />
-        <PageHeader title="Services" />
+        <PageHeader title="Service" />
         <CuisineSpotlight />
         <CuisineHighlights />
         <Categories />
