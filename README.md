@@ -18,8 +18,8 @@ Acer's Diner is a modern restaurant website built with React, TypeScript, and Vi
 - Vite
 - React Router
 - Tailwind CSS
-- Lucide React / React Icons
-- Swiper
+- Lucide React & React Icons
+- SwiperJs
 
 ## Getting Started
 
@@ -53,4 +53,4 @@ This generates a production-ready build in the `dist` folder.
 
 ## License
 
-This project is for personal or client-facing use and is intended as a restaurant marketing website template for Acer's Diner.
+This project is for a client-facing use and is intended as a restaurant marketing website template for Acer's Diner.
